@@ -1,0 +1,25 @@
+table.people {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+  tr:hover {
+    cursor: pointer;
+    background: #CCCCCC;
+  }
+
+  th, td {
+    border: 1px solid #CCC;
+    text-align: left;
+  }
+
+  tfoot {
+    border: none;
+  }
+
+  tfoot tr td {
+    text-align: right;
+    border: none;
+  }
+}
+

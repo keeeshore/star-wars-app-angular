@@ -1,0 +1,7 @@
+{
+  "/api/people": {
+    "target": "https://swapi.dev/api/people/",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

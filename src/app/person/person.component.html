@@ -1,0 +1,12 @@
+<div class="person-details">
+  <h3>Details Section</h3>
+  <div>Name: {{person.name}}</div>
+  <div>Birth year: {{person.birth_year}}</div>
+  <div>Gender: {{person.gender}}</div>
+  <div>List of films:</div>
+  <ul>
+    <li *ngFor="let film of person.films">
+      <app-film [url]="film"></app-film>
+    </li>
+  </ul>
+</div>
