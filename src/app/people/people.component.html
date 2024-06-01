@@ -17,8 +17,8 @@
   <tr>
     <td colSpan="3">
       {{people.status}}
-      <a *ngIf="people.previous" href="#" (click)="prevPage()">Prev</a> |
-      <a *ngIf="people.next" href="#" (click)="nextPage()">Next</a>
+      <a *ngIf="people.previous"[routerLink]="" (click)="!!prevPage()">Prev</a> |
+      <a *ngIf="people.next" [routerLink]="" (click)="!!nextPage()">Next</a>
     </td>
   </tr>
   </tfoot>

@@ -42,13 +42,13 @@ export class PeopleComponent implements OnInit {
     this.peopleService.updatePerson(person);
   }
 
-  nextPage(): void {
-    console.log('Next page clicked');
+  nextPage(e): void {
+    console.log('Next page clicked', e);
     this.peopleService.getPeople(this.people.next);
   }
 
-  prevPage(): void {
-    console.log('Prev page clicked');
+  prevPage(e): void {
+    console.log('Prev page clicked, ', e);
     this.peopleService.getPeople(this.people.previous);
   }
 
