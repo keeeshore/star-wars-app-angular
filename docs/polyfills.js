@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\workspace\star-wars-ng\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\workspace\star-wars-app-angular\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
